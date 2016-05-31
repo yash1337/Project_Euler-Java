@@ -8,33 +8,31 @@
 public class Problem1 
 {
 	
-	private static int calcSum(int[] arr)
+	private static int calcSum(int[] arr)// Function to calculate sum of the array of multiples.
 	{
 		int sum=0;
-		for( int i=0;i<arr.length;i++)
+		for( int i=0;i<arr.length;i++)//Function to traverse array.
 		{
 			sum=sum+arr[i];
 		}
-		return sum;
+		return sum;//returning the sum of multiples.
 	}
 	static void findNumbers()
 	{
-		int multiples[]=new int[999];
+		int multiples[]=new int[999];//variable to store the multiples. Should have used ArrayList for dynamic array.
 		for (int i=3,j=0;i<1000;i++)
 		{
-			if(i%3==0 || i%5==0)
+			if(i%3==0 || i%5==0)//checking if the number is multiple of 3 or 5.
 			{
 				multiples[j]=i;
-				j++;
+				j++;//Increasing the index of array.
 			}
 		}
-		for (int i=0;i<multiples.length;i++)
-			System.out.println(multiples[i]);
-		System.out.println(calcSum(multiples));
+		System.out.println(calcSum(multiples));//Printing the sum of multiples.
 	}
 	public static void main(String args[])
 	{
-			findNumbers();
+			findNumbers();//calling the function to print the sum of the multiples.
 		
 	}
 }
