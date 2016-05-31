@@ -1,2 +1,6 @@
 # Project_Euler-Java
-Solution from Project Euler in Java
+
+
+This repository will have solutions of Project Euler coded in Java.
+
+Let's get started.
