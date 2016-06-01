@@ -35,5 +35,4 @@ public class Problem4
 	{
 		new Problem4().palinProduct();//calling the method using an temp object.
 	}
-	
 }//THE END.
