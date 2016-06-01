@@ -35,4 +35,4 @@ public class Problem1
 			findNumbers();//calling the function to print the sum of the multiples.
 		
 	}
-}
+}//THE END.
